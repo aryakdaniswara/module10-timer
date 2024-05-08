@@ -104,6 +104,7 @@ fn main() {
         TimerFuture::new(Duration::new(2, 0)).await;
         println!("Ari's Komputer: done!");
     });
+    println!("Ari's Komputer: hey hey");
 
     // Drop the spawner so that our executor knows it is finished and won't
     // receive more incoming tasks to run.
